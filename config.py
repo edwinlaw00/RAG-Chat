@@ -1,7 +1,6 @@
 # Directory paths
-PRELOAD_DIRECTORY = 'data/doc1'
-#VECTORDB_DIRECTORY = 'data/vectordb/preload/chroma/'
-VECTORDB_DIRECTORY = 'data/vectordb/diary/chroma/'
+PRELOAD_DIRECTORY = 'data/doc'
+VECTORDB_DIRECTORY = 'data/vectordb/chroma/'
 
 # Embedding
 #EMBEDDING_MODEL = 'text-embedding-ada-002'
