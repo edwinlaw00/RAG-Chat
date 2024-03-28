@@ -25,7 +25,7 @@ with gr.Blocks() as demo:
 
             # Third row:
             with gr.Row() as row_two:
-                llm_dropdown = gr.Dropdown(label="LLM", choices=config.llm_list, value=config.default_llm)
+                llm_dropdown = gr.Dropdown(label="LLM", choices=config.LLM_LIST, value=config.DEFAULT_LLM)
                 text_submit_btn = gr.Button(value="Submit")
                 clear_button = gr.ClearButton([input_txt, chatbot])
                 temperature_bar = gr.Slider(minimum=0, maximum=1, value=0, step=0.1,

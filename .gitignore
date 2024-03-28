@@ -3,3 +3,5 @@
 /include
 /share
 /pyvenv.cfg
+/__pycache__
+/data

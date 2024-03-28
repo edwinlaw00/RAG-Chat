@@ -15,7 +15,7 @@ def get_embedding_model():
         return HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL)
     
 def get_llm_response(llm_name, prompt, temperature):
-    prompt = f"{config.llm_system_role}{prompt}"
+    prompt = f"{config.LLM_PROMPT}{prompt}"
     print(f"Prompt ========================\n{prompt}\n========================")
     print(f"Getting response from LLM '{llm_name}' with temperature {temperature}")
 
