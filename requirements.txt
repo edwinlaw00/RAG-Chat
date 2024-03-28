@@ -1,0 +1,8 @@
+chromadb
+gradio
+langchain
+langchain-openai
+openai
+sentence_transformers
+pypdf
+unstructured[md]
