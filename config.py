@@ -1,6 +1,5 @@
 # Directory paths
-#PRELOAD_DIRECTORY = 'data/doc'
-PRELOAD_DIRECTORY = '/Users/edwin/Library/CloudStorage/Dropbox/Repos/RAG-GPT/data/doc1'
+DOC_DIRECTORY = 'data/doc'
 VECTORDB_DIRECTORY = 'data/vectordb/chroma/'
 
 # Embedding

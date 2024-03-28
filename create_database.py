@@ -4,7 +4,7 @@ import config
 
 def main():
     # Load documents
-    documents = Documents(path=config.PRELOAD_DIRECTORY).getDocuments()
+    documents = Documents(path=config.DOC_DIRECTORY).getDocuments()
 
     # Load documents into vector database    
     if len(documents) > 0:
